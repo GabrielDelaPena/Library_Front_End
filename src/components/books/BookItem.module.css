@@ -1,0 +1,42 @@
+.item {
+  width: 300px;
+  height: 525px;
+  background-color: white;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.image {
+  height: 400px;
+  padding: 0 1rem;
+  margin: 15px 0 5px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.btnContainer {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.btn {
+  height: 30px;
+  width: 150px;
+  background-color: #5cb85c;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #3fb770;
+}

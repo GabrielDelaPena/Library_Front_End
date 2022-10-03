@@ -1,0 +1,58 @@
+.pageContainer {
+  margin: 70px auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.image {
+  width: 320px;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bookDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookDetail p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  width: 260px;
+}
+
+.btn {
+  width: 125px;
+  background-color: #5cb85c;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: #3fb770;
+}
+
+.link {
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}

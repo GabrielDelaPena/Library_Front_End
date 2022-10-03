@@ -1,0 +1,36 @@
+.nav {
+  height: 60px;
+  padding: 0 10px;
+  background-color: #5cb85c;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  width: 380px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #f0f0f0;
+  cursor: pointer;
+}

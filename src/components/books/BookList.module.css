@@ -1,0 +1,12 @@
+.listContainer {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.bookList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  flex-wrap: wrap;
+}
